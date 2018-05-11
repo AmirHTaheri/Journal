@@ -23,4 +23,4 @@ $statement->execute([
   ":id" => $_POST["entryID"]
 ]);
 
-header('Location: /Login/welcome.php?message=loggedin');
+header('Location: /welcome.php?message=loggedin');

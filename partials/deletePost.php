@@ -22,4 +22,4 @@ $statement->execute([
 ]);
 
 
-header('Location: /Login/welcome.php?message=loggedin');
+header('Location: /welcome.php?message=loggedin');
