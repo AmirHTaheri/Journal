@@ -20,7 +20,7 @@ $statement->execute([
 $user = $statement->fetch();
 
 if (password_verify($_POST["password"], $user["password"])) {
-    header('Location: /Login/welcome.php?message=loggedin');
+    header('Location: /welcome.php?message=loggedin');
     $_SESSION["loggedIn"] = true;
     $_SESSION["username"] = $user["username"];
     $_SESSION["userID"] = $user["userID"];

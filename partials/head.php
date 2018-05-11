@@ -22,7 +22,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
 
-      <link rel="stylesheet" href="/Login/css/style.css">
+      <link rel="stylesheet" href="/css/style.css">
 
       <script type="text/javascript" src="js/script.js"></script>
 
