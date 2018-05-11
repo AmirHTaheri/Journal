@@ -1,5 +1,5 @@
 <?php
-header('Location: /');
+header('Location: /welcome.php?message="Loggedin"');
 
 require_once 'database.php';
 
