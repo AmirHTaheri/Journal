@@ -21,8 +21,8 @@
             <form action='partials/addPost.php' method="POST">
               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="article" placeholder="Article name">
               <textarea name="post" rows="8" cols="120" placeholder="Your post should not be more tha 10000 characters! Remember!"></textarea>
-              <input type="submit" class="btn btn-primary" value="Post">
               <br/>
+              <input type="submit" class="btn btn-primary" value="Post">
 
               <input type="hidden" name="username" value="<?php $_SESSION['userID']?>" />
 
