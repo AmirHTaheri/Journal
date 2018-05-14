@@ -70,6 +70,8 @@
            <input type="submit" class="btn btn-warning" name="modify" value="Modify content">
 
            <input type="hidden" name="entryID" value="'.$p["entryID"].'">
+           <input type="hidden" name="content" value="'.$p["content"].'">
+           <input type="hidden" name="title" value="'.$p["title"].'">
            </form>
             </div>';
 
