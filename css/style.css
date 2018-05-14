@@ -39,7 +39,7 @@ textarea {
     resize: vertical;
     border-radius: 7px;
     background-color: #0923;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Rokkitt', serif;
     font-size: 20px;
 }
 
@@ -175,7 +175,7 @@ textarea {
   margin: 1%;
   background-color: lightblue;
   border-radius: 7px;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
 
