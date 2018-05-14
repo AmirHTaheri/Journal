@@ -59,7 +59,7 @@
           echo '<div class="col-1-1">
           <h2>'.$title.'</h2>
           <p>'.$content.
-          '</p>'.$p['createdAt']';
+          '</p>'.$p['createdAt'];
           ;
           if ($_SESSION[loggedIn]) {
             echo '
