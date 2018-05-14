@@ -44,6 +44,10 @@ textarea {
     width: 70%;
 }
 
+input[type=text]{
+  width:70%;
+}
+
 
 
 .topnav-wrapper {
